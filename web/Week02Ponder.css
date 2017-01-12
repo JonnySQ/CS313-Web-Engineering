@@ -1,0 +1,64 @@
+#mytitle {
+font-family:Verdana
+}
+
+.me {
+background-color:#FFFFCC;
+padding-left:10px;
+padding-right:10px;
+border-left:2px solid #FFFF88;
+border-right:2px solid #FFFF88;
+}
+
+.funfact {
+background-color:#FAEEEE;
+border:1px solid Red;
+border-radius: 10px;
+font-family:Lucida Sans Unicode;
+}
+
+.paddy {
+padding:20px;
+}
+
+.cake {
+margin-left:20%;
+margin-right:20%;
+}
+
+.cake2 {
+margin-left:10%;
+margin-right:10%;
+}
+
+th.paddy {
+padding:10px;
+}
+
+td.paddy {
+padding:5px;
+}
+
+tr.baker {
+background-color:#FFF7F2;
+}
+
+tr.man {
+background-color:#FFFFFF;
+}
+
+.black-chunk {
+border-bottom:2px solid black; 
+border-top:2px solid black;
+background-color:#F7F7FF;
+}
+
+.photo-slide {
+margin:auto;
+width:550px !important;
+height:300px !important;
+}
+
+.photo-slide2 {
+margin:auto;
+}
