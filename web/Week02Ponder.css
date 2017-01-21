@@ -1,5 +1,9 @@
 #mytitle {
-font-family:Verdana
+font-family:Verdana;
+}
+
+.bigger{
+font-size:150%;
 }
 
 .me {
@@ -17,6 +21,17 @@ border-radius: 10px;
 font-family:Lucida Sans Unicode;
 }
 
+.funselecty {
+background-color:#FFFFCC;
+border:1px solid Red;
+border-radius: 10px;
+font-family:Lucida Sans Unicode;
+}
+
+.funselecty:hover {
+background-color:#FFFFFF;
+}
+
 .paddy {
 padding:20px;
 }
@@ -29,6 +44,10 @@ margin-right:20%;
 .cake2 {
 margin-left:10%;
 margin-right:10%;
+}
+
+a.paddy {
+padding:7px;
 }
 
 th.paddy {
@@ -51,6 +70,17 @@ background-color:#FFFFFF;
 border-bottom:2px solid black; 
 border-top:2px solid black;
 background-color:#F7F7FF;
+}
+
+.side-lines {
+padding-left:15px;
+padding-right:15px;
+border-left:2px solid #AAAAAA;
+border-right:2px solid #AAAAAA;
+}
+
+.white-back {
+background-color:#FFFFFF;
 }
 
 .photo-slide {
