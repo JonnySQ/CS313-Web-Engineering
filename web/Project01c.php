@@ -60,7 +60,7 @@ include("testdatabase.php");
 		
 		?>
 		<div class="paddy cake">
-		<form action="project01e.php" method="post">
+		<form action="Project01e.php" method="post">
 		
 		<text>Soda Name</text>
 		<input name="soda" type="text"></input>

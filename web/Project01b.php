@@ -29,7 +29,7 @@ include ("testdatabase.php");
            <li><a href="Home.html">Home</a></li>
            <li><a href="Assignments.html">Assignments</a></li>
            <li><a href="Project01a.php">Project01</a></li>
-           <li class ="active"><a href="project01b.php">Soda Search</a></li>
+           <li class ="active"><a href="Project01b.php">Soda Search</a></li>
          </ul>
 		</div>
 		
