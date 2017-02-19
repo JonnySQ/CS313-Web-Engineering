@@ -41,8 +41,8 @@ include("testdatabase.php");
          <ul class="breadcrumb">
            <li><a href="Home.html">Home</a></li>
            <li><a href="Assignments.html">Assignments</a></li>
-           <li><a href="project01a.php">Project01</a></li>
-           <li class="active"><a href="project01c.php">Add New Soda</a></li>
+           <li><a href="Project01a.php">Project01</a></li>
+           <li class="active"><a href="Project01c.php">Add New Soda</a></li>
          </ul>
 		</div>
 	<div class="black-chunk paddy cake">

@@ -35,9 +35,9 @@ include ("testdatabase.php");
          <ul class="breadcrumb">
            <li><a href="Home.html">Home</a></li>
            <li><a href="Assignments.html">Assignments</a></li>
-           <li><a href="project01a.php">Project01</a></li>
-           <li><a href="project01b.php">Soda Search</a></li>
-           <li class ="active"><a href="project01f.php">Soda Search Results</a></li>
+           <li><a href="Project01a.php">Project01</a></li>
+           <li><a href="Project01b.php">Soda Search</a></li>
+           <li class ="active"><a href="Project01f.php">Soda Search Results</a></li>
          </ul>
 		</div>
 		
