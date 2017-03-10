@@ -1,0 +1,126 @@
+text
+{
+font-size:16px;
+
+}
+
+.button-fancy
+{
+	background color: #FFFFFF;
+	color: black;
+	padding: 7px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.cb-alpha
+{
+	background-color:#01B0F1;
+}
+
+.chunk-logo
+{
+	display: block;
+	margin: auto;	
+}
+
+.cake {
+	margin-left:8%;
+	margin-right:8%;
+}
+
+.cake2 {
+	
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+
+}
+
+.cake3 {
+	margin-left:auto;
+	margin-right:auto;
+	width:65%;
+
+}
+
+.chunk-row
+{
+	margin-right:0px !important;
+	margin-left:0px !important;
+}
+
+.lean-right
+{
+	text-align:right;
+}
+
+.chunk-row2
+{
+	margin-top:0px !important;
+	margin-bottom:20px; !important;
+}
+
+.logo-padding
+{
+	padding: 15px 10px 30px 10px;
+}
+
+.menu-padding
+{
+	padding: 10px 10px 10px 10px;
+}
+
+.list-padding
+{
+	padding-left: 20px;
+}
+
+.menu-home-setup
+{
+	float:left;
+	margin-left:20%;
+}
+
+.menu-flavor-list-setup
+{
+	float:right;
+	margin-right:20%;
+}
+
+.cb-beta
+{
+	background-color:#DAEEF7;
+
+}
+.cb-cent
+{
+	background-color:#F2F2F2;
+}
+.cb-delta
+{
+	background-color:#FFFFFF;
+}
+
+.chunk-entity
+{
+
+border: 3px solid #1a3766;
+
+}
+
+.chunk-left
+{
+border-left: 3px solid #1a3766;
+}
+
+.chunk-right
+{
+border-right: 3px solid #1a3766;
+}
+
+.chunk-bot
+{
+border-bottom: 3px solid #1a3766;
+}
