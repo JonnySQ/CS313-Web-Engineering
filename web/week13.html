@@ -1,0 +1,161 @@
+<!-- Before starting, I would like to point out that with Bootstrap, the emphasis on its use appears to be the benefit
+     of resizing the page to different sizes and still have a good appearance with each varying result.
+     Another thing to emphasize is how much Bootstrap is dependent on classes in order to implement its desired
+     results, along with a number of <div> tags-->
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Soda-Pop Shop</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   </head>
+   <body>
+     <div class="container-fluid">
+       <!-- In this part I created a navigation bar in order to go to other sites.
+            In this excersize I had the links go to various past assignments.-->
+       <nav class="navbar navbar-default">
+         <div class="container-fluid">
+           <div class="navbar-header">
+             <a class="navbar-brand" href="week13.html">Soda-Pop Shop</a> <!--This assignment-->
+           </div>
+           <ul class="nav navbar-nav">
+             <li class="active"><a href="week13.html">Home</a></li> <!-- This assignment-->
+             <li><a href="Project04.php">Purchase</a></li> <!-- Week 12 assignment-->
+           </ul>
+         </div>
+       </nav>
+       <!-- I placed my logo image here which is resizable-->
+       <div class="container">
+         <div class="row">
+         <img src="//orig12.deviantart.net/204a/f/2016/114/6/f/soda_pop_shop_logo_2_by_jonnysq-da04hp5.png" 
+            class="img-circle img-responsive center-block" alt="Logo" width="434" height="201">
+         </div>
+       </div>
+       <h2 class="text-center">Your stop when you need a drop.</h2>
+       <!-- One facinating thing with Bootstrap was the ability to make something 
+            as complex as a carousel with some ease-->
+       <div class="row" style="border-bottom:3px solid black; border-top:3px solid black;">
+         <div class="col-md-6 col-sm-12">
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+             <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+               <li data-target="#myCarousel" data-slide-to="3"></li>
+             </ol>
+             <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                 <h3 class="text-center">Classicly Delicious Soda Flavors!</h3>
+                 <img style="margin:auto" class="img-thumbnail" src="//orig06.deviantart.net/42ea/f/2016/194/c/d/classic_by_jonnysq-da9xfkf.jpg" alt="Classic">
+                 <br/>
+               </div>
+               <div class="item">
+                 <h3 class="text-center">Monthly Specials Are Better Than Ever!</h3>
+                 <img style="margin:auto" class="img-thumbnail" 
+                      src="//orig14.deviantart.net/992e/f/2016/194/6/9/monthly_by_jonnysq-da9xfgh.jpg" alt="Monthly">
+                 <br/>
+               </div>
+               <div class="item">
+                 <h3 class="text-center">Pops Crafted With Supreme Luxury!</h3>
+                 <img style="margin:auto" class="img-thumbnail" 
+                      src="//orig06.deviantart.net/1ba7/f/2016/194/1/4/lux_by_jonnysq-da9xfed.jpg" alt="Luxury">
+                 <br/>
+               </div>
+               <div class="item">
+                 <h3 class="text-center">Mystery Flavors Are Included!</h3>
+                 <img style="margin:auto" class="img-thumbnail" 
+                      src="//orig08.deviantart.net/45e2/f/2016/194/d/2/mystery_by_jonnysq-da9xfhv.jpg" alt="Secret">
+                 <br/>
+               </div>
+             </div>
+             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+             </a>
+           </div>
+         </div>
+         <!-- When resizing the page this part will either be right next to, or below the carousel -->
+         <div class="col-md-6 col-sm-12">
+           <p style="font-size:175%; padding:20px">The Soda-Pop Shop is guaranteed to satisfy you in your refreshment needs. 
+             With all of our unique and wide selection of exclusive flavors that are unavailable anywhere else. Satisfaction Guaranteed!</p>
+         </div>
+       </div>
+       <!-- This part probabily best emphasizes the use of Bootstrap, which to adjust the page as you resize it.
+            Notice how many columns there are for this list of flavors as you resize the page on the browser each time.
+            With a small size, there should be 1 column, medium with 3 columns, and large with 6 columns -->
+       <div class="row">
+         <h2 class="text-center">Menu of Selected Flavors</h2>
+         <div class="well well-lg">
+         <div class="row">
+           <div class="col-lg-2 col-md-4 col-sm-6">
+             <ul>
+             <li>Apple Snaps</li>
+             <li>Blackberry Blast</li>
+             <li>Chunk O' Chocolate</li>
+             <li>Choose the Sprite</li>
+             <li>Delciously Peachy</li>
+             </ul>
+           </div>
+           <div class="col-lg-2 col-md-4 col-sm-6">
+             <ul>
+             <li>Ewwie Gooey Spewie</li>
+             <li>Fizzy Classic</li>
+             <li>Grapefruit Grapple</li>
+             <li>Hot Spicy Cinnamon</li>
+             <li>Ill Tempered Child</li>
+             </ul>
+           </div>
+           <div class="col-lg-2 col-md-4 col-sm-6">
+             <ul>
+             <li>Jamming Jungle Juice</li>
+             <li>Love Potion</li>
+             <li>Malicious Mix</li>
+             <li>Not Your Normal One</li>
+             <li>Orange Zap</li>
+             </ul>
+           </div>
+           <div class="col-lg-2 col-md-4 col-sm-6">
+             <ul>
+             <li>Potassium Power</li>
+             <li>Queen's Delight</li>
+             <li>Roots and Vegetables</li>
+             <li>Secret Soda</li>
+             <li>Too Much Mango</li>
+             </ul>
+           </div>
+           <div class="col-lg-2 col-md-4 col-sm-6">
+             <ul>
+             <li>U Will Like This One</li>
+             <li>Venomously Sour</li>
+             <li>Wishy Washy</li>
+             <li>When a Coke is Placed Before You</li>
+             <li>Xtremely Sweet</li>
+             </ul>
+           </div>
+           <div class="col-lg-2 col-md-4 col-sm-6">
+             <ul>
+             <li>Yellin' Screamin'</li>
+             <li>Zazzle Pizazz</li>
+             <li>Mystery Monthly Special</li>
+             <li>Mystery Classic Soft Drink</li>
+             <li>Mystery Luxury Splendor</li>
+             </ul>
+           </div>
+         </div>
+         </div>
+         <div class="row">
+           <div class="col-sm-12">
+           <p class="text-center">This is the site of the Soda-Pop Shop at www.SodaPopShop.com. Soda-Pop Shop 2016</p>
+         </div>
+     </div>
+   </body>
+</html>
+
+<!-- As an overall I really enjoyed using Bootstrap and I can see how it's as popular as it is as a front-end framework-->
