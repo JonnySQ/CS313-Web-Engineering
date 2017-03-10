@@ -74,7 +74,7 @@ for($i = 0; $i < count($pop); $i++)
       if ($m[$a] != 0)
       {
 		echo "<span style=float:right>";
-        echo $m[$a] . " " . $pop[$i] . "(Luxury Splendor) @ $10.00 = $" . number_format(($m[$a] * 5), 2);
+        echo $m[$a] . " " . $pop[$i] . " (Monthly Special) @  $5.00 = $" . number_format(($m[$a] * 5), 2);
         echo "</span><br />";
         $cheap = $cheap + $m[$a];
       }
@@ -96,7 +96,7 @@ for($i = 0; $i < count($pop); $i++)
       if ($s[$a] != 0)
       {
          echo "<span style=float:right>";
-         echo $s[$a] . " " . $pop[$i] . "(Monthly Special) @  $5.00 = $" . number_format(($s[$a] * 10), 2);
+         echo $s[$a] . " " . $pop[$i] . " (Luxury Splendor) @ $10.00 = $" . number_format(($s[$a] * 10), 2);
          echo "</span><br />";
          $self = $self + $s[$a];
       }
