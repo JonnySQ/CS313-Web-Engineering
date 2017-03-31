@@ -1,7 +1,49 @@
 text
 {
-font-size:16px;
+	font-size:16px;
+}
 
+a
+{
+	color: #1a3766 !important;
+}
+
+form
+{
+	margin-bottom:0px;
+}
+
+h1
+{
+	font-size:30px !important;
+	color: #1a3766 !important;
+}
+
+h2
+{
+	font-size:24px !important;
+	color: #1a3766 !important;
+}
+
+h3
+{
+	font-size:20px !important;
+	color: #1a3766 !important;
+}
+
+body
+{
+	background-image: url("Soda5.png");
+}
+
+.col-padding
+{
+	padding-left:5% !important;
+}
+
+.sans
+{
+	font-family:Comic Sans MS;
 }
 
 .button-fancy
@@ -11,7 +53,7 @@ font-size:16px;
 	padding: 7px;
 	text-align: center;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .cb-alpha
@@ -26,23 +68,26 @@ font-size:16px;
 }
 
 .cake {
-	margin-left:8%;
-	margin-right:8%;
+	margin-left:15%;
+	margin-right:15%;
 }
 
 .cake2 {
-	
 	margin-left:auto;
 	margin-right:auto;
 	width: 50%;
-
 }
 
 .cake3 {
 	margin-left:auto;
 	margin-right:auto;
-	width:65%;
+	width:85%;
+}
 
+.cake4 {
+	margin-left:25%;
+	margin-right:auto;
+	width:70%;	
 }
 
 .chunk-row
@@ -64,17 +109,62 @@ font-size:16px;
 
 .logo-padding
 {
-	padding: 15px 10px 30px 10px;
+	padding: 10px;
 }
 
 .menu-padding
 {
-	padding: 10px 10px 10px 10px;
+	padding: 1px;
 }
 
 .list-padding
 {
-	padding-left: 20px;
+	padding-right:7px;
+}
+
+.list-paddingF
+{
+	padding-right:30px;
+}
+
+.list-paddingL
+{
+	padding-right:31px;
+}
+
+.list-paddingC
+{
+	padding-right:72px;
+}
+
+.list-paddingS
+{
+	padding-right:64px;
+}
+
+.list-paddingZ
+{
+	padding-right:43px;
+}
+
+.list-paddingP
+{
+	padding-right:9px;
+}
+
+.list-paddingCT
+{
+	padding-right:36px;
+}
+
+.list-paddingCE
+{
+	padding-right:6px;
+}
+
+.list-paddingCN
+{
+	padding-right:19px;
 }
 
 .menu-home-setup
@@ -96,31 +186,39 @@ font-size:16px;
 }
 .cb-cent
 {
-	background-color:#F2F2F2;
+	background-color:#FFE6E6;
 }
 .cb-delta
 {
 	background-color:#FFFFFF;
 }
 
+.cb-eli
+{
+	background-color:#88BBDD;
+}
+
 .chunk-entity
 {
-
-border: 3px solid #1a3766;
-
+	border: 3px solid #1a3766;
 }
 
 .chunk-left
 {
-border-left: 3px solid #1a3766;
+	border-left: 3px solid #1a3766;
 }
 
 .chunk-right
 {
-border-right: 3px solid #1a3766;
+	border-right: 3px solid #1a3766;
 }
 
 .chunk-bot
 {
-border-bottom: 3px solid #1a3766;
+	border-bottom: 3px solid #1a3766;
+}
+
+.teen
+{
+	font-size:13px;
 }

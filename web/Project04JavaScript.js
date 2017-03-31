@@ -90,6 +90,6 @@ var s10 = parseInt(document.getElementById("s10").value);
       document.getElementById("shipping").innerHTML = "";
       document.getElementById("tax").innerHTML = "";
       document.getElementById("subtotal").innerHTML = "";
-      document.getElementById("total").innerHTML = "";
+      document.getElementById("total").innerHTML = "Total = $0.00";
    }
 }

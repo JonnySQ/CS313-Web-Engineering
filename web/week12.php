@@ -3,7 +3,7 @@
 <script type="text/javascript" src="Project04JavaScript.js"></script>
 <link rel="stylesheet" type="text/css" href="Project04Style.css">
 <body>
-<div class="cake">
+<div class="cake cb-beta logo-padding chunk-entity">
 <h1 style="margin:auto">Soda-Pop Shop</h1>
 <h2>Order Review</h2>
 <div class="cake" style="width:750px; margin:auto; padding-left:20px; padding-right:50px; color:black;">
@@ -46,18 +46,17 @@ $m = array($m1, $m2, $m3, $m4, $m5, $m6, $m7, $m8);
 $c = array($c1, $c2, $c3, $c4, $c5, $c6, $c7, $c8, $c9, $c10);
 $s = array($s1, $s2, $s3, $s4, $s5, $s6, $s7, $s8, $s9, $s10);
 
-$pop = array("Chunk O' Chocolate", "Ewwie Gooey Spewie", "Fizzy Classic", "Love Potion",
- "Roots and Vegetables", "Secret Soda",
+$pop = array("Chunk O' Chocolate", "Fizzy Classic", "Love Potion","Secret Soda",
  "Xtremely Sweet", "Mystery Monthly Special",
  
- "Blackberry Blast", "Choose the Sprite",
- "Grapefruit Grapple", "Hot Spicy Cinnamon", "Malicious Mix",
- "Orange Zap", "Potassium Power", "When a Coke is Placed Before You",
+ "Blackberry Blast", "Choose the Sprite", "Deliciously Peachy", "Ewwie Gooey Spewie",
+ "Grapefruit Grapple", "Hot Spicy Cinnamon", "Jamming Jungle Juice", "Malicious Mix",
+ "Orange Zap", "Potassium Power", "Roots and Vegetables",
+ "Too Much Mango", "Venomously Sour", "Wishy Washy", "When a Coke is Placed Before You",
  "Yellin' Screamin'", "Mystery Classic Soft Drink",
  
- "Apple Snaps", "Deliciously Peachy", "Ill Tempered Child",
- "Jamming Jungle Juice", "Not Your Normal One",
- "Queen's Delight", "U Will Like This One", "Venomously Sour", "Zazzle Pizzazz",
+ "Apple Snaps", "Ill Tempered Child", "Not Your Normal One",
+ "Queen's Delight", "U Will Like This One", "Zazzle Pizzazz",
  "Mystery Luxury Splendor");
  
  
@@ -74,7 +73,7 @@ for($i = 0; $i < count($pop); $i++)
       if ($m[$a] != 0)
       {
 		echo "<span style=float:right>";
-        echo $m[$a] . " " . $pop[$i] . " (Monthly Special) @  $5.00 = $" . number_format(($m[$a] * 5), 2);
+        echo $m[$a] . " " . $pop[$i] . "(Luxury Splendor) @ $10.00 = $" . number_format(($m[$a] * 5), 2);
         echo "</span><br />";
         $cheap = $cheap + $m[$a];
       }
@@ -96,7 +95,7 @@ for($i = 0; $i < count($pop); $i++)
       if ($s[$a] != 0)
       {
          echo "<span style=float:right>";
-         echo $s[$a] . " " . $pop[$i] . " (Luxury Splendor) @ $10.00 = $" . number_format(($s[$a] * 10), 2);
+         echo $s[$a] . " " . $pop[$i] . "(Monthly Special) @  $5.00 = $" . number_format(($s[$a] * 10), 2);
          echo "</span><br />";
          $self = $self + $s[$a];
       }
@@ -164,7 +163,7 @@ echo $_POST["cardNumber"], "<br>";
 <input value="Cancel Order" name="cancel" type="submit"></input>
 </form>
 </div>
-<p class="cake">This is the site of the Soda-Pop Shop at www.SodaPopShop.com. Soda-Pop Shop 2016</p>
+<p class="cake">This is the site of the Soda-Pop Shop. Soda-Pop Shop 2017</p>
 </div>
 </body>
 </html>

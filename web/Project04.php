@@ -14,30 +14,31 @@
 
 <body class="chunk-entity cake">
 	<div class="cb-alpha logo-padding chunk-bot">
-	<img class="chunk-logo" src= "/SodaLogo.png"
-	alt="Logo"></img>
+	<a href="week13.html"><img class="chunk-logo" src= "/sodaLogo.png"
+	alt="Logo"></a></img>
 	</div>
 	
 	<div class="cb-beta menu-padding chunk-bot">
-	<h2><a class="menu-home-setup" href="week13.html">Home</a>  
+	<h3><a class="menu-home-setup" href="week13.html">Home</a>  
 	<a class="menu-flavor-list-setup" href="week13.html">Flavor List</a>
-	</h2>
+	</h3>
 	<br></br>
 	</div>
 	
 	<div class="cb-cent menu-padding text-center chunk-bot">
 	<h1>Inventory List</h1>
-	<p>Please select your product choices. Flavors are sold in a 12 pack set of 12oz cans.</p>
+	<p class="teen">Please select your product choices.</br>
+	Flavors are sold in a 12 pack set of 12oz cans.</p>
 	</div>
 	
-	<form action="week12.php" method="post">
+	<form action="week12.php" method="post" onclick="TotalUp()">
 	
-	<div class="row chunk-row cb-cent menu-padding chunk-bot">
+	<div class="sans row chunk-row cb-cent menu-padding chunk-bot">
 	
-	<div class="col-sm-4">
+	<div class="col-sm-4 col-padding">
 		<div>
-			<h3>Monthly Specialties</h3> 
-			<h3 class="chunk-row2">($5.00 Each)</h3>
+			<h3>Cheap Soda</h3> 
+			<h3 class="chunk-row2">$5.00 Each</h3>
 		</div>
 	
 	<select id="m1" name="m1">
@@ -164,10 +165,10 @@
 	</div>
 	
 	
-	<div class="col-sm-4 chunk-left">
+	<div class="col-sm-4 chunk-left col-padding">
 		<div>
-			<h3>Classic Soft Drinks</h3> 
-			<h3 class="chunk-row2">($7.50 Each)</h3>
+			<h3>Classic Soda</h3> 
+			<h3 class="chunk-row2">$7.50 Each</h3>
 		</div>
 	
 	<select id="c1" name="c1">
@@ -321,10 +322,10 @@
 	<text>Mystery Classic Soft Drink</text><br></br>	
 	</div>
 	
-	<div class="col-sm-4 chunk-left">
+	<div class="col-sm-4 chunk-left col-padding">
 		<div>
-		<h3>Luxury Splendors</h3>
-		<h3 class="chunk-row2">($10.00 Each)</h3>
+		<h3>Luxury Soda</h3>
+		<h3 class="chunk-row2">$10.00 Each</h3>
 		</div>
 	
 	<select id="s1" name="s1">
@@ -480,18 +481,12 @@
 		
 	</div>
 	
-	<div class="cb-cent chunk-bot menu-padding">
+	<div class="cb-eli chunk-bot logo-padding">
 	<div class="cake2">
 	
 	<h2 class="text-center">Running Total</h2>
 	
-	<div class="cake2 text-center">
-	<button class="button-fancy" type="button" onclick="TotalUp()">Calculate Running Total</button>
-	</div>
-	
-	<br></br>
-	
-	<div class="cb-delta lean-right cake3 menu-padding chunk-entity">
+	<div class="cb-delta lean-right cake3 logo-padding chunk-entity">
 	
 		<p id="case1" name="case1"></p>
 		<p id="case2" name="case2"></p>
@@ -500,38 +495,38 @@
 		<p id="shipping" name="shipping"></p>
 		<p id="tax" name="tax" class="chunk-bot"></p>
 		
-		<h4 id="total" name="total"></h4>
+		<h4 id="total" name="total">Total = $0.00</h4>
 	
 	</div>
 	</div>
 	</div>
 	
-	<div class="cb-beta menu-padding chunk-bot">
+	<div class="cb-beta logo-padding chunk-bot">
 	
 	
 	
 	<h2 class="text-center">Personal & Payment Information</h2>
 	
-	<div class="cake2">
+	<div class="cake4">
 	
-	<text>First Name</text>
-	<input type="text" name="firstName" maxlength="18" size="18"></input>
+	<p><text class="list-paddingF teen">First Name</text>
+	<input type="text" name="firstName" maxlength="18" size="18" required="required"></input>
+	</p>
 	
-	<text class="list-padding">Last Name</text>
-	<input type="text" name="lastName" maxlength="24" size="24"></input>
-
-	<br></br>
+	<p><text class="list-paddingL teen">Last Name</text>
+	<input type="text" name="lastName" maxlength="24" size="24" required="required"></input>
+	</p>
 	
-	<text>Street Address</text>
-	<input type="text" name="streetAddress" maxlength="45" size="45"></input>
+	<p><text class="list-padding teen">Street Address</text>
+	<input type="text" name="streetAddress" maxlength="45" size="45" required="required"></input>
+	</p>
 	
-	<br></br>
+	<p><text class="list-paddingC teen">City</text>
+	<input type="text" name="city" maxlength="23" size="23" required="required"></input>
+	</p>
 	
-	<text>City</text>
-	<input type="text" name="city" maxlength="23" size="23"></input>
-	
-	<text class="list-padding">State</text>
-	<select name="state">
+	<p><text class="list-paddingS teen">State</text>
+	<select name="state" required="required">
 		<option value="0"></option>
 		<option value="AL">AL</option>
 		<option value="AK">AK</option>
@@ -586,27 +581,28 @@
 		<option value="WY">WY</option>
 	</select>
 	
-	<text class="list-padding">Zip Code</text>
-	<input type="text" name="zipCode" maxlength="5" size="5"></input>
+	</p>
 	
-	<br></br>
+	<p><text class="list-paddingZ teen">Zip Code</text>
+	<input type="text" name="zipCode" maxlength="5" size="5" required="required"></input>
+	</p>
 	
-	<text>Phone Number</text>
-	<input type="text" name="phoneNumber" maxlength="12" size="12"></input>
+	<p><text class="list-paddingP teen">Phone Number</text>
+	<input type="text" name="phoneNumber" maxlength="12" size="12" required="required"></input>
+	</p>
 	
-	<br></br>
-	
-	<text>Card Type</text>
-	<select name="card">
+	<p><text class="list-paddingCT teen">Card Type</text>
+	<select name="card" required="required">
 		<option value="0"></option>
 		<option value="Visa">Visa</option>
 		<option value="MasterCard">MasterCard</option>
 		<option value="American Express">American Express</option>
 		<option value="Discover">Discover</option>
 	</select>
+	</p>
 	
-	<text class="list-padding">Card Exp. Date</text>
-	<select name="cardMonth">
+	<p><text class="list-paddingCE teen">Card Exp. Date</text>
+	<select name="cardMonth" required="required">
 		<option value="0"></option>
 		<option value="Jan.">Jan.</option>
 		<option value="Feb.">Feb.</option>
@@ -622,7 +618,7 @@
 		<option value="Dec.">Dec.</option>
 	</select>
 	
-	<select name="cardYear">
+	<select name="cardYear" required="required">
 		<option value="0"></option>
 		<option value="2017">2017</option>
 		<option value="2018">2018</option>
@@ -641,26 +637,31 @@
 		<option value="2031">2031</option>
 		<option value="2032">2032</option>
 	</select>
+	</p>
 	
-	<br></br>
+	<p><text class="list-paddingCN teen">Card Number</text>
+	<input type="text" name="cardNumber" maxlength="16" size="16" required="required"></input>
+	</p>
 	
-	<text>Card Number</text>
-	<input type="text" name="cardNumber" maxlength="16" size="16"></input>
+	</div>
 	
 	<br></br>
 	
 	<div class="cake2 text-center">
+	<span class="list-paddingC">
+	<input class="button-fancy" type="reset" value="Reset Order"></input>
+	</span>
 	<input class="button-fancy" type="submit" value="Submit Order"></input>
 	</div>
 	
-	</div>
+	<br></br>
 	
 	</div>
 	
 	</form>
 	
-	<div class="cake2 text-center">
-	<p>This is the site of the Soda-Pop Shop. Soda-pop Shop 2017.</p>
+	<div class="text-center cb-delta">
+	<footer class="teen logo-padding">This is the site of the Soda-Pop Shop. Soda-pop Shop 2017.</footer>
 	</div>
 
 </body>

@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script type="text/javascript" src="week12.js"></script>
 <link rel="stylesheet" type="text/css" href="Project04Style.css">
+</head>
+
 <body>
-<div class="cake">
+<div class="cake logo-padding chunk-entity cb-eli">
 <h1 style="margin:auto">Soda-Pop Shop</h1>
 <h2>Order Review</h2>
 <div class="path" style="width:750px; margin:auto; padding-left:20px; padding-right:50px; color:black;">
@@ -19,8 +23,7 @@ else if ($confirm == "Confirm Order")
     ?>
 </div>
 
-<p class="cake">This is the site of the Soda-Pop Shop at www.SodaPopShop.com. Soda-Pop Shop 2016</p>
-<p class="cake" style="font-size:110%;">In case you need to leave: <a href="Project04.php">Back to Order Page</a></p>
+<h3>Back To Order Page: <a href="Project04.php">Order Page</a></h3>
    </div>
 </body>
 </html>
