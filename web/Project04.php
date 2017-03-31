@@ -14,7 +14,7 @@
 
 <body class="chunk-entity cake">
 	<div class="cb-alpha logo-padding chunk-bot">
-	<a href="week13.html"><img class="chunk-logo" src= "/sodaLogo.png"
+	<a href="week13.html"><img class="chunk-logo" src= "/SodaLogo.png"
 	alt="Logo"></a></img>
 	</div>
 	
